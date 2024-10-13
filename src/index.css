@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nerko+One&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.textWithShadow1 {
+  text-shadow: -3px 20px 0px rgba(0, 0, 0, 1);
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-heading {
+  font-family: "Matemasie", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.custom-paragraph {
+
+  font-family: "Nerko One", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
